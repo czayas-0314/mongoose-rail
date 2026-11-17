@@ -4,17 +4,17 @@ A free macOS workspace browser that organizes web apps and email accounts into s
 
 ## Download for Mac
 
-[**Download Mongoose Rail 0.1.0 Beta 2 (DMG)**](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.0-beta.2/MongooseRail-0.1.0-macos-arm64.dmg)
+[**Download Mongoose Rail 0.1.1 Beta 3 (DMG)**](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.1-beta.3/MongooseRail-0.1.1-macos-arm64.dmg)
 
 **Public beta for Apple silicon Macs (M1 or newer) with macOS 13 or later.** This is the same signed and notarized installer Badger Hub offers under **Preview**.
 
-For a first install, open the DMG, drag **Mongoose Rail** to **Applications**, eject the image, and launch the app from Applications. You can also install it from the Mongoose Rail card in [Badger Hub](https://github.com/czayas-0314/Badger-Downloads#badger-hub).
+For a first install, open the DMG, drag **Mongoose Rail** to **Applications**, eject the image, and launch the app from Applications. You can also install it from the Mongoose Rail card in [Badger Hub](https://github.com/czayas-0314/Badger-Downloads#badger-hub). A fresh setup starts with one empty Personal account.
 
 For an existing installation, use Mongoose Rail’s own updater. In Badger Hub, choose **Manage updates in app** when available. Mongoose Rail handles profile snapshots, startup checks, and rollback.
 
-[Beta 2 release notes](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.2) · [Installer checksums](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.0-beta.2/SHA256SUMS) · [All releases](https://github.com/czayas-0314/mongoose-rail/releases)
+[Beta 3 release notes](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.1-beta.3) · [Installer checksums](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.1-beta.3/SHA256SUMS) · [All releases](https://github.com/czayas-0314/mongoose-rail/releases)
 
-Beta 2 adds guided account setup, extensions that stay with each account, and Outlook Inbox unread counts. Apple Passwords pairing, signed-in third-party password vault workflows, and live Slack notifications remain unverified. Widevine DRM is not included. Mongoose Rail is free. Third-party websites set their own account requirements and pricing.
+Beta 3 keeps other account windows in the background when you close a window on Mac. Mongoose Rail includes guided account setup, extensions that stay with each account, and Outlook Inbox unread counts. Apple Passwords pairing, signed-in third-party password vault workflows, and live Slack notifications remain unverified. Widevine DRM is not included. Mongoose Rail is free. Third-party websites set their own account requirements and pricing.
 
 ## About this repository
 
