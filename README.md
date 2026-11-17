@@ -4,19 +4,21 @@ A free macOS workspace browser that organizes web apps and email accounts into s
 
 ## Download for Mac
 
-[**Download Mongoose Rail 0.1.0 Beta 1 (DMG)**](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.0-beta.1/MongooseRail-0.1.0-beta.1-macOS-arm64.dmg)
+[**Download Mongoose Rail 0.1.0 Beta 2 (DMG)**](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.0-beta.2/MongooseRail-0.1.0-macos-arm64.dmg)
 
-**Apple Silicon Macs (M1 or newer), macOS 13 or later.** Intel Macs and Windows are not supported by this build.
+**Public beta for Apple silicon Macs (M1 or newer) with macOS 13 or later.** This is the same signed and notarized installer Badger Hub offers under **Preview**.
 
-Open the DMG, drag **Mongoose Rail** to **Applications**, eject the image, and launch the app. Add your own profiles and sign in to your accounts. The installer is Developer ID signed and notarized by Apple; users do not need an Apple Developer account or signing setup.
+For a first install, open the DMG, drag **Mongoose Rail** to **Applications**, eject the image, and launch the app from Applications. You can also install it from the Mongoose Rail card in [Badger Hub](https://github.com/czayas-0314/Badger-Downloads#badger-hub).
 
-[Release notes and installation details](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.1) · [All releases](https://github.com/czayas-0314/mongoose-rail/releases)
+For an existing installation, use Mongoose Rail’s own updater. In Badger Hub, choose **Manage updates in app** when available. Mongoose Rail handles profile snapshots, startup checks, and rollback.
 
-This is an **early beta**, not a stable production release. Some websites or account flows may still have issues. Widevine DRM is not included. Updates are installed manually from Releases. Mongoose Rail is free; third-party websites retain their own account requirements and pricing.
+[Beta 2 release notes](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.2) · [Installer checksums](https://github.com/czayas-0314/mongoose-rail/releases/download/v0.1.0-beta.2/SHA256SUMS) · [All releases](https://github.com/czayas-0314/mongoose-rail/releases)
+
+Beta 2 adds guided account setup, extensions that stay with each account, and Outlook Inbox unread counts. Apple Passwords pairing, signed-in third-party password vault workflows, and live Slack notifications remain unverified. Widevine DRM is not included. Mongoose Rail is free. Third-party websites set their own account requirements and pricing.
 
 ## About this repository
 
-This is the public download, release-note, and issue-reporting repository. It does not contain the private development checkout, personal browser profiles, cookies, account data, credentials, or signing keys. Public source/build materials are attached separately to releases.
+This is the public download, release-note, and issue-reporting repository. It does not contain the private development checkout, personal browser profiles, cookies, account data, credentials, or signing keys.
 
 Downloading a release does not grant permission to change this repository or its official releases. Repository changes are controlled by the owner and explicitly authorized maintainers.
 
@@ -30,6 +32,6 @@ Do not post passwords, cookies, tokens, private emails, browser profile folders,
 
 Mongoose Rail is based on Chromium and uses FFmpeg under LGPL 2.1-or-later. Third-party software and service names remain subject to their respective licenses and trademarks.
 
-The [release assets](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.1) include **THIRD_PARTY_NOTICES.txt**, matching **ffmpeg-source**, **MongooseRail-source-v0.1.0-beta.1.tar.gz** with source/build instructions, and **SHA256SUMS.txt**. Notices are also available in the app at `chrome://credits/`.
+Third-party notices are available in the app at `chrome://credits/`. The [historic Beta 1 release](https://github.com/czayas-0314/mongoose-rail/releases/tag/v0.1.0-beta.1) includes its own notices, matching FFmpeg source, and a source supplement with build instructions for Beta 1.
 
-Regular users only need the DMG. GitHub's automatic “Source code” downloads contain this repository, not the complete browser source reconstruction; developers should use the explicitly named source supplement and its pinned upstream instructions.
+GitHub’s automatic “Source code” downloads contain this download repository.
